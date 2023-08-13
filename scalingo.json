@@ -48,6 +48,10 @@
             "required": false,
             "value": "localhost"
         },
+        "CMD_ALLOWED_EMAIL_DOMAINS": {
+            "description": "email domain whitelist (use comma to separate)",
+            "required": false
+        },
         "CMD_PROTOCOL_USESSL": {
             "description": "set to use ssl protocol for resources path (only applied when domain is set)",
             "required": false
